@@ -46,3 +46,28 @@ temp/
 *.pid
 *.seed
 *.pid.lock
+
+# Additional for TypeScript
+*.tsbuildinfo
+
+# Additional for React
+.parcel-cache/
+
+# Postgres temporary files
+*.sql
+*.backup
+
+# Redis temporary files
+dump.rdb
+# Additional for TypeScript
+*.tsbuildinfo
+
+# Additional for React
+.parcel-cache/
+
+# Postgres temporary files
+*.sql
+*.backup
+
+# Redis temporary files
+dump.rdb

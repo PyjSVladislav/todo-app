@@ -1,0 +1,48 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build outputs
+dist/
+build/
+.cache/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Editor and OS files
+.DS_Store
+*.swp
+*.swo
+.idea/
+*.code-workspace
+.vscode/
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Testing
+coverage/
+*.test.js
+*.test.ts
+
+# Docker
+docker-compose.yml
+Dockerfile
+*.dockerignore
+
+# Temporary files
+*.tmp
+temp/
+
+# Production artifacts
+*.pid
+*.seed
+*.pid.lock

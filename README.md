@@ -7,3 +7,5 @@ A production-level To-Do application built with Express, Postgres, Redis, React,
 - npm v10.x or later installed
 
 - TypeScript v5.6.x or later installed globally (`npm i -g typescript`)
+
+- ts-node v10.9.x or later installed globally (`npm i -g ts-node`)

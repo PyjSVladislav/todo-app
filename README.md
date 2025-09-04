@@ -12,3 +12,5 @@ A production-level To-Do application built with Express, Postgres, Redis, React,
 
 ## Project Setup
 - TypeScript configuration initialized in `tsconfig.json` for backend and frontend.
+
+- Updated `tsconfig.json` with `target: ES6`, `module: commonjs`, `strict: true`, and additional settings for Node.js and React compatibility.

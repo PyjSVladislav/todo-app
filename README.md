@@ -21,3 +21,5 @@ A production-level To-Do application built with Express, Postgres, Redis, React,
 - Added `tsconfig.json` in `backend` for TypeScript configuration, extending root config.
 
 - Fixed TypeScript errors in `backend`: reinstalled `@types/express` and updated `src/index.ts` to resolve unused parameter warning.
+
+- Added `GET /api/health` route in `backend/src/index.ts` for server health check.

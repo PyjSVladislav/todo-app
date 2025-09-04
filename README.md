@@ -17,3 +17,5 @@ A production-level To-Do application built with Express, Postgres, Redis, React,
 
 ## Backend Setup
 - Installed Express (`npm i express`) in `backend` directory.
+
+- Added `tsconfig.json` in `backend` for TypeScript configuration, extending root config.

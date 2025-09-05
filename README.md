@@ -23,3 +23,5 @@ A production-level To-Do application built with Express, Postgres, Redis, React,
 - Fixed TypeScript errors in `backend`: reinstalled `@types/express` and updated `src/index.ts` to resolve unused parameter warning.
 
 - Added `GET /api/health` route in `backend/src/index.ts` for server health check.
+
+- Added CRUD routes (`GET /api/todos`, `GET /api/todos/:id`, `POST /api/todos`, `PUT /api/todos/:id`, `DELETE /api/todos/:id`) in `backend/src/index.ts` using in-memory storage.

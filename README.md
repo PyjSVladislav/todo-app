@@ -25,3 +25,5 @@ A production-level To-Do application built with Express, Postgres, Redis, React,
 - Added `GET /api/health` route in `backend/src/index.ts` for server health check.
 
 - Added CRUD routes (`GET /api/todos`, `GET /api/todos/:id`, `POST /api/todos`, `PUT /api/todos/:id`, `DELETE /api/todos/:id`) in `backend/src/index.ts` using in-memory storage.
+
+- Added PostgreSQL integration in `backend`: installed `pg`, created `todos` table, updated CRUD routes to use database.
